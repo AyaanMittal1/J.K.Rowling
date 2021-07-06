@@ -4,17 +4,38 @@
 <head>
     <title>
         J.K. Rowling</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="stly.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <nav class="navbar-inverse mynavbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mymenu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">J.K Rowling</a>
+        </div>
+        <div id="mymenu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="list"><a href="#welcome">Home</a></li>
+                <li class="list"><a href="#video">Videos</a></li>
+                <li class="list"><a href="#books">Books</a></li>
+                <li class="list"><a href="#Arti">Articles</a></li>
+                <li class="list"><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <section id="welcome">
-        <ul class="menu">
-        <li class="list">Home</li>
-            <li class="list">Videos</li>
-            <li class="list">Books</li>
-            <li class="list">Contact</li>
-        </ul>
         <div id="div1">
             <img src="JK_Rowling.webp" class="img">
             <h1>
@@ -25,7 +46,7 @@
     </section>
     <section id="bio">
         <h1>
-        Hi!</h1>
+            Hi!</h1>
         <div class="line">
         </div>
         <p>
@@ -35,6 +56,65 @@
 
             The young Jo grew up surrounded by books. “I lived for books,’’ she has said. “I was your basic common-or-garden bookworm, complete with freckles and National Health spectacles.”</p>
     </section>
-</body>
-
-</html>
+    <section id="video">
+        <h1>
+            Videos</h1>
+        <div class="line"></div>
+        <iframe width="790" height="444" src="https://www.youtube.com/embed/aA_QYZBWQ88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <br>
+        <iframe width="790" height="444" src="https://www.youtube.com/embed/cmZLl6EeJMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <br>
+        <iframe width="790" height="444" src="https://www.youtube.com/embed/Me3SbSWhICg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="books">
+        <h1>Books</h1>
+        <div class="line"></div>
+        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/J._K._Rowling#Publications"></iframe>
+    </section>
+    <section id="Arti">
+        <h1>Articles</h1>
+        <div class="line"></div>
+        <a href="https://www.britannica.com/biography/J-K-Rowling" target="_blank" class="Article">
+            <h3>Britannica</h3>
+        </a>
+        <br>
+        <a href="https://www.nytimes.com/topic/person/j-k-rowling" target="_blank" class="Article">
+            <h3>The New York Times</h3>
+        </a>
+    </section>
+    <section id="Contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49431.48015205303!2d-119.99130257372799!3d39.25495786930481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80996ff06d251165%3A0x6d65149fbd9c544b!2sIncline%20Village%2C%20NV%2089451!5e0!3m2!1sen!2sus!4v1622508510850!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br>
+        <br>
+        <div class="contact col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <a href="mailto:ayaanmittal19@gmail.com?Subject=Hello"><i class="fa fa-envelope fa-2x"></i>
+                &nbsp;&nbsp;
+                <h3>ayaanmittal19@gmail.com</h3>
+            </a>
+        </div>
+        <div class="contact2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <form>
+                <span>Name:</span>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <input required type="text">
+                <br>
+                <br>
+                <span>Comment:</span>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <input required type="text">
+                <input type="submit" class="btn btn-success">
+            </form>
+        </div>
+    </section>
+</body></html>

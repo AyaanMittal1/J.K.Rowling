@@ -1,5 +1,4 @@
 body {
-    padding-top: 800px;
     margin: 0px;
 }
 
@@ -11,14 +10,16 @@ body {
 
 #welcome {
     background: linear-gradient(#f59e42 0%, #161efa 50%, #1efa16 100%);
-    position: absolute;
+/*    position: absolute;*/
     overflow: hidden;
     height: 800px;
     color: #ffffff;
+/*
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
+*/
     opacity: 0.83;
     display: table;
     width: 100%;
@@ -53,19 +54,59 @@ p {
 }
 .menu{
     list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    top: 0px;
     cursor: pointer;
     z-index: 10;
+    text-decoration-color:black;
+    background-color: aliceblue;
+    width: 100%;    
 }
 .list{
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    float: left;
+    display:inline;
 }
 .list:hover{
-    background-color: aqua
+    background-color: aqua;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-family: 'Goblin One', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Contact h3{
+    display: inline;
+}
+#Contact{
+    background-color: navy;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+#Arti a{
+    text-decoration: underline !important;
+    color: blue !important;
+    text-align: center;
+}
+#video{
+    text-align: center;
+}
+i{
+    font-size: 40px;
+}
+.mynavbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000000000;
 }
